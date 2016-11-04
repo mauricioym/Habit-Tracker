@@ -26,7 +26,8 @@ public class HabitDbHelper extends SQLiteOpenHelper {
                 + HabitEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
                 + HabitEntry.COLUMN_HABIT_NAME + " TEXT NOT NULL, "
                 + HabitEntry.COLUMN_HABIT_STREAK + " INTEGER NOT NULL DEFAULT 0, "
-                + HabitEntry.COLUMN_HABIT_MAX_STREAK + " INTEGER NOT NULL DEFAULT 0);";
+                + HabitEntry.COLUMN_HABIT_MAX_STREAK + " INTEGER NOT NULL DEFAULT 0,"
+                + HabitEntry.COLUMN_HABIT_STREAK_TARGET + " INTEGER NOT NULL);";
 
         db.execSQL(SQL_CREATE_PETS_TABLE);
     }

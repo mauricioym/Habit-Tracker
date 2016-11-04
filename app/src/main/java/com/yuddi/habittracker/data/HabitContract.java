@@ -20,6 +20,7 @@ public final class HabitContract {
         public static final String COLUMN_HABIT_NAME = "name";
         public static final String COLUMN_HABIT_STREAK = "streak";
         public static final String COLUMN_HABIT_MAX_STREAK = "max_streak";
+        public static final String COLUMN_HABIT_STREAK_TARGET = "target";
 
     }
 }
